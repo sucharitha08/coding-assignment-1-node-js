@@ -1,0 +1,11 @@
+GET http://localhost:3000/todos/?category=WORK&priority=MEDIUM
+
+###
+
+PUT http://localhost:3000/todos/3/
+
+Content-type:application/json
+
+{
+    "status": "TO DO"
+}
